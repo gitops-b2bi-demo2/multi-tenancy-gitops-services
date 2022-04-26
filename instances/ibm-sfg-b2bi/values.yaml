@@ -114,7 +114,7 @@ ibm-sfg-prod:
       enabled: true
       minReplicas: 2
       maxReplicas: 4
-      targetCPUUtilizationPercentage: 60
+      targetCPUUtilizationPercentage: 20
 
     frontendService:
       type: ClusterIP
@@ -189,7 +189,7 @@ ibm-sfg-prod:
       enabled: true
       minReplicas: 2
       maxReplicas: 4
-      targetCPUUtilizationPercentage: 60
+      targetCPUUtilizationPercentage: 20
 
     frontendService:
       type: ClusterIP
